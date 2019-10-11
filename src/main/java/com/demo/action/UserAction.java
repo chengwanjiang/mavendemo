@@ -18,7 +18,7 @@ public class UserAction extends ActionSupport {
         String ip = getUserIP(request);
         String name = getHostName(ip);
         String BrowserInfo = getRequestBrowserInfo(request);
-        System.out.println("访问地址：" + ip + " 主机名：" + name + " 浏览器：" + BrowserInfo);
+        System.out.println("地址：" + ip + " 主机名：" + name + " 浏览器：" + BrowserInfo);
         return SUCCESS;
 
     }
