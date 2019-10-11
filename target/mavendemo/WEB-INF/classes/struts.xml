@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+
+    <!-- 产生对象从spring 配置 文件中读取 -->
+    <constant name="struts.objectFactory" value="org.apache.struts2.spring.StrutsSpringObjectFactory"/>
+    <constant name="struts.action.extension" value="do"/>
+
+
+     <package name="default" extends="struts-default" namespace="/">
+         <action name="dashboard" class="com.demo.action.UserAction" method="dashboard">
+             <result name="success">/index.jsp</result>
+         </action>
+     </package>
+  </struts>
