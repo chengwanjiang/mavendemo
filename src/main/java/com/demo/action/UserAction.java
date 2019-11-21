@@ -21,6 +21,7 @@ public class UserAction extends ActionSupport {
         System.out.println("地址：" + ip + " 主机名：" + name + " 浏览器：" + BrowserInfo);
         return SUCCESS;
 
+
     }
 
     /**
