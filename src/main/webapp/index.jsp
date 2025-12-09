@@ -28,6 +28,6 @@
     </style>
 
     <body>
-        <div class="content">哈 勃 平 台 维 护 中....</div>
+        <div class="content">哈 勃 平 台 维 护 中....，请稍候再试！</div>
     </body>
 </html>
